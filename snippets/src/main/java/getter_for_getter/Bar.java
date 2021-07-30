@@ -1,4 +1,4 @@
-package GetterForGetter;
+package getter_for_getter;
 
 public class Bar {
     private String name;

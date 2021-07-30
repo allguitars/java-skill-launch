@@ -1,4 +1,4 @@
-package GetterForGetter;
+package getter_for_getter;
 
 public class GetterForGetter {
     public static void main(String[] args) {

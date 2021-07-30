@@ -1,4 +1,4 @@
-package Generics.Problems;
+package generics.problem_to_solve;
 
 public class MyClassDouble {
     private Double n;

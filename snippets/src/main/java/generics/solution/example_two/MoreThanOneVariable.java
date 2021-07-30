@@ -1,4 +1,4 @@
-package Generics.Solution.ExampleTwo;
+package generics.solution.example_two;
 
 public class MoreThanOneVariable {
 

@@ -1,4 +1,4 @@
-package Generics.Solution.HashMap;
+package generics.solution.using_hashmap;
 
 public class Main {
 

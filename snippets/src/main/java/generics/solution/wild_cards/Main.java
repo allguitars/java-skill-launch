@@ -1,4 +1,4 @@
-package Generics.Solution.WildCards;
+package generics.solution.wild_cards;
 
 public class Main {
 

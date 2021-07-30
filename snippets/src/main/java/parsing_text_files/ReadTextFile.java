@@ -1,4 +1,4 @@
-package ParseTextFile;
+package parsing_text_files;
 
 import java.io.File;
 import java.io.FileNotFoundException;

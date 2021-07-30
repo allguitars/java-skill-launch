@@ -1,4 +1,4 @@
-package Generics.Solution.ExampleOne;
+package generics.solution.example_one;
 
 public class Main {
 

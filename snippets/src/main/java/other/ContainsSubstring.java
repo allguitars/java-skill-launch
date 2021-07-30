@@ -1,4 +1,4 @@
-package Other;
+package other;
 
 public class ContainsSubstring {
     public static void main(String[] args) {

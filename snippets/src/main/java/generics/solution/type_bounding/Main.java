@@ -1,4 +1,4 @@
-package Generics.Solution.TypeBounding;
+package generics.solution.type_bounding;
 
 public class Main {
 
