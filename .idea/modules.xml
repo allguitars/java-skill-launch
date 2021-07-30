@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/lambda-expressions/lambda-expressions.iml" filepath="$PROJECT_DIR$/lambda-expressions/lambda-expressions.iml" />
-      <module fileurl="file://$PROJECT_DIR$/snippets/snippets.iml" filepath="$PROJECT_DIR$/snippets/snippets.iml" />
-    </modules>
-  </component>
-</project>
