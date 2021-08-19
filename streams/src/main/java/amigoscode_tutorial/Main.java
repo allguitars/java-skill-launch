@@ -52,11 +52,11 @@ public class Main {
 //        sorted.forEach(System.out::println);
 
         // 3. Chain comparators
-//        List<Person> sorted = people.stream()
-//                .sorted(Comparator.comparing(Person::getGender).thenComparing(Person::getAge))
-//                .collect(Collectors.toList());
-//
-//        sorted.forEach(System.out::println);
+        List<Person> sorted = people.stream()
+                .sorted(Comparator.comparing(Person::getGender).thenComparing(Person::getAge))
+                .collect(Collectors.toList());
+
+        sorted.forEach(System.out::println);
 
         // We can also ask questions about our collections...
 
