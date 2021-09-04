@@ -12,5 +12,6 @@ public class SimpleLinkedListDemo {
         System.out.println("node 0: " + simpleLinkedList.get(0));  // A
         System.out.println("node 1: " + simpleLinkedList.get(1));  // B
         System.out.println("node 2: " + simpleLinkedList.get(2));  // IndexOutOfBoundsException
+
     }
 }
