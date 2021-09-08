@@ -31,5 +31,12 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.2" level="project" />
+    <orderEntry type="library" name="Maven: info.picocli:picocli-shell-jline3:4.5.2" level="project" />
+    <orderEntry type="library" name="Maven: org.jline:jline:3.16.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jline:jline-console:3.16.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jline:jline-builtins:3.16.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jline:jline-reader:3.16.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jline:jline-style:3.16.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jline:jline-terminal:3.16.0" level="project" />
   </component>
 </module>
