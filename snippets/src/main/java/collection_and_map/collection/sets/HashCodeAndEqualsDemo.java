@@ -17,7 +17,7 @@ import java.util.Set;
 public class HashCodeAndEqualsDemo {
 
     public static void main(String[] args) {
-        Set students = new HashSet();
+        Set<Student> students = new HashSet<>();
         students.add(new Student("Dave", "100"));
         students.add(new Student("Stanley", "200"));
         students.add(new Student("Dave", "100"));

@@ -17,10 +17,10 @@ public class TreeMapDemo {
         messages.put("Dave", "Hi there!");
         messages.put("Stanley", "Nice to meet you");
         messages.put("John", "Have a nice day");
-        System.out.println(messages);  // There is no specific order for items in a HashMap
+        System.out.println(messages);
         // Dave -> John -> Stanley
 
-        // As String already implements the Comparable interface's compareTo method, we cannot
+        // As String already implements the compareTo() method from Comparable interface, we cannot
         // override the way how it decides the order.
         // However, we can pass in a Comparator object into the TreeMap's constructor
         // to tell TreeMap how to make order for the String keys
