@@ -65,6 +65,5 @@ public class StringCompareDemo {
         //    but remains same in case of Object.
         // 2. == will return true if you compare String literals but return false if you compare
         //    String object to a literal or two String object, even if they have same characters.
-
     }
 }

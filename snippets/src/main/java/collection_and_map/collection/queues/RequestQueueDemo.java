@@ -7,12 +7,12 @@ public class RequestQueueDemo {
 
     public static void main(String[] args) {
         // LinkedList also implements Queue so LinkedList can be seen as a kind of Queue.
-        Queue requests = new LinkedList();
+        Queue<Request> requests = new LinkedList<>();
         offerRequestsTo(requests);
         process(requests);
     }
 
-    static void offerRequestsTo(Queue requests) {
+    static void offerRequestsTo(Queue<Request> requests) {
         // Simulates offering coming requests to the queue
         for (int i = 1; i < 6; i++) {
             // You can actually implement the interface while using it
@@ -28,12 +28,12 @@ public class RequestQueueDemo {
         }
     }
 
-    static void process(Queue requests) {
+    static void process(Queue<Request> requests) {
         // Queue or LinkedList provides peek method for getting the element at the beginning
         // of the queue while not removing it from the queue
         while (requests.peek() != null) {
             // poll method will get the front element and actually remove it from the queue
-            Request request = (Request) requests.poll();
+            Request request = requests.poll();
             request.execute();
         }
     }
