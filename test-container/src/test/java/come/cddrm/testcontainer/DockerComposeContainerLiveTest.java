@@ -21,9 +21,8 @@ public class DockerComposeContainerLiveTest {
 
     @Test
     public void givenSimpleWebServerContainer_whenGetRequest_thenReturnResponse() throws Exception {
-        String address = "http://" +
-                compose.getServiceHost("simpleWebServer_1", 80) +
-                ":" + compose.getServicePort("simpleWebServer_1", 80);
+        String address = "http://" + compose.getServiceHost("simpleWebServer_1", 80)
+                + ":" + compose.getServicePort("simpleWebServer_1", 80);
 
         String response = simpleGetRequest(address);
 
