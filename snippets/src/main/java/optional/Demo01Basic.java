@@ -2,6 +2,9 @@ package optional;
 
 import java.util.Optional;
 
+// Introduce Optionals to your codebase and eliminate where
+// "null" values are likely to be present
+
 public class Demo01Basic {
 
     public static void main(String[] args) {
