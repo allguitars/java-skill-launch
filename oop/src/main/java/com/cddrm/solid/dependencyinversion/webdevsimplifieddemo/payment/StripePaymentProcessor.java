@@ -14,7 +14,10 @@ public class StripePaymentProcessor implements PaymentProcessor {
         this.stripe = new Stripe(user);
     }
 
+    // provide the same method signature to the API caller
     public void pay(long amountInDollars) {
+
+        // the actual use of the external API is different
         this.stripe.makePayment(amountInDollars * 100);
     }
 }

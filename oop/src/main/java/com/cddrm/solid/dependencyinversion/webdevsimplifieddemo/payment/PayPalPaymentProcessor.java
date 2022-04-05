@@ -14,7 +14,10 @@ public class PayPalPaymentProcessor implements PaymentProcessor {
         this.payPal = new PayPal(user);
     }
 
+    // provide the same method signature to the API caller
     public void pay(long amountInDollars) {
+
+        // the actual use of the external API is different
         this.payPal.makePayment(this.user, amountInDollars);
     }
 }

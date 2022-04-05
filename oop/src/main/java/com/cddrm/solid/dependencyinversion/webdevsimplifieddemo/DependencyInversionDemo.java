@@ -12,16 +12,14 @@ public class DependencyInversionDemo {
 
         User user = new User("dave", "dave@cddrm.com");
 
-        // using Stripe
-        PaymentProcessor processor1 = new StripePaymentProcessor(user);
+        PaymentProcessor processor1 = new StripePaymentProcessor(user);  // using Stripe payment processor
 
-        purchaseBike(processor1, 2);
+        purchaseBike(processor1, 2);  // pass in the processor
         purchaseHelmet(processor1, 2);
 
-        // using PayPal
-        PaymentProcessor processor2 = new PayPalPaymentProcessor(user);
+        PaymentProcessor processor2 = new PayPalPaymentProcessor(user);  // using PayPal payment processor
 
-        purchaseBike(processor2, 2);
+        purchaseBike(processor2, 2);  // pass in the processor
         purchaseHelmet(processor2, 2);
     }
 
