@@ -1,4 +1,4 @@
-package com.cddrm.solid.openclosed.webdevsimplifieddemo.bad;
+package com.cddrm.solid.openclosed.web_dev_simplified_demo.bad;
 
 import java.util.ArrayList;
 import java.util.List;

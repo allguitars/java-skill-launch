@@ -1,4 +1,4 @@
-package com.cddrm.solid.openclosed.webdevsimplifieddemo.good.question;
+package com.cddrm.solid.openclosed.web_dev_simplified_demo.good.question;
 
 public class MultipleChoiceQuestion extends Question {
 

@@ -1,10 +1,10 @@
-package com.cddrm.solid.openclosed.webdevsimplifieddemo.good;
+package com.cddrm.solid.openclosed.web_dev_simplified_demo.good;
 
-import com.cddrm.solid.openclosed.webdevsimplifieddemo.good.question.Question;
-import com.cddrm.solid.openclosed.webdevsimplifieddemo.good.question.BooleanQuestion;
-import com.cddrm.solid.openclosed.webdevsimplifieddemo.good.question.MultipleChoiceQuestion;
-import com.cddrm.solid.openclosed.webdevsimplifieddemo.good.question.RangeQuestion;
-import com.cddrm.solid.openclosed.webdevsimplifieddemo.good.question.TextQuestion;
+import com.cddrm.solid.openclosed.web_dev_simplified_demo.good.question.Question;
+import com.cddrm.solid.openclosed.web_dev_simplified_demo.good.question.BooleanQuestion;
+import com.cddrm.solid.openclosed.web_dev_simplified_demo.good.question.MultipleChoiceQuestion;
+import com.cddrm.solid.openclosed.web_dev_simplified_demo.good.question.RangeQuestion;
+import com.cddrm.solid.openclosed.web_dev_simplified_demo.good.question.TextQuestion;
 
 // https://youtu.be/-ptMtJAdj40 by Web Dev Simplified
 
