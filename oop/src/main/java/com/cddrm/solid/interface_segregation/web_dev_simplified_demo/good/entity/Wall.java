@@ -1,8 +1,11 @@
 package com.cddrm.solid.interface_segregation.web_dev_simplified_demo.good.entity;
 
-import com.cddrm.solid.interface_segregation.web_dev_simplified_demo.good.behavior_component.HasHealth;
-
-public class Wall extends Entity implements HasHealth {
+/**
+ * A Wall can only take damage, so we just need to implement the takeDamage() method that is
+ * inherited from the Entity class.
+ * It cannot move or attack, so we do not need to implement other interfaces.
+ */
+public class Wall extends Entity {
 
     private double health;
 

@@ -2,6 +2,11 @@ package com.cddrm.solid.interface_segregation.web_dev_simplified_demo.good.entit
 
 import com.cddrm.solid.interface_segregation.web_dev_simplified_demo.good.behavior_component.Attacker;
 
+/**
+ * A Turret can only attack, so it implements Attacker interface.
+ * It cannot take damage or move, but takeDamage() method is inherited from the abstract class, so
+ * we still need to override it inside Turret class.
+ */
 public class Turret extends Entity implements Attacker {
 
     private double attackDamage;

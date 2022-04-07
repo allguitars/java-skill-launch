@@ -1,14 +1,17 @@
 package com.cddrm.solid.interface_segregation.web_dev_simplified_demo.good.entity;
 
 import com.cddrm.solid.interface_segregation.web_dev_simplified_demo.good.behavior_component.Attacker;
-import com.cddrm.solid.interface_segregation.web_dev_simplified_demo.good.behavior_component.HasHealth;
 import com.cddrm.solid.interface_segregation.web_dev_simplified_demo.good.behavior_component.Mover;
 
 /**
  * We are adding the behavior components into the Character by implementing the interfaces
+ *
+ * A Character can move, attack and take damage.
+ * - We need to implement both the Mover and Attacker interfaces.
+ * - Also, we need to implement the takeDamage() method inherited from the Entity class.
  */
 
-public class Character extends Entity implements Mover, Attacker, HasHealth {
+public class Character extends Entity implements Mover, Attacker {
 
     private double attackDamage;
     private double health;
