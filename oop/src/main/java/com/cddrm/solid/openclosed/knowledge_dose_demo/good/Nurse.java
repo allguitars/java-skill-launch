@@ -3,7 +3,7 @@ package com.cddrm.solid.openclosed.knowledge_dose_demo.good;
 /**
  * Since this class inherits the abstract class, it must implement the abstract methods from the parent class
  */
-public class Nurse extends Employee {
+public class Nurse extends AbstractEmployee {
 
     public Nurse(int id, String name, String department, boolean working) {
         super(id, name, department, working);

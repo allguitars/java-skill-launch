@@ -28,7 +28,7 @@ public class HospitalManagement {
 
     // Now we get rid of the if statements and just call the performDuties method of the
     // object passed in
-    public void callUpon(Employee employee) {
+    public void callUpon(AbstractEmployee employee) {
         employee.performDuties();
     }
 }

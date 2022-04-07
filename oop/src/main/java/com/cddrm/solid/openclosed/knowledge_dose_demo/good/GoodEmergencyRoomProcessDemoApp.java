@@ -17,8 +17,8 @@ public class GoodEmergencyRoomProcessDemoApp {
 
         HospitalManagement ERDirector = new HospitalManagement();
 
-        Employee nurse = new Nurse(1, "Peggy", "Emergency", true);
-        Employee doctor = new Doctor(2, "Susan", "Emergency", true);
+        AbstractEmployee nurse = new Nurse(1, "Peggy", "Emergency", true);
+        AbstractEmployee doctor = new Doctor(2, "Susan", "Emergency", true);
 
         ERDirector.callUpon(nurse);
         ERDirector.callUpon(doctor);

@@ -4,14 +4,14 @@ package com.cddrm.solid.openclosed.knowledge_dose_demo.good;
  * Make the Employee class abstract and create the abstract method, performDuties()
  */
 
-abstract public class Employee {
+abstract public class AbstractEmployee {
 
     private int id;
     private String name;
     private String department;
     private boolean working;
 
-    public Employee(int id, String name, String department, boolean working) {
+    public AbstractEmployee(int id, String name, String department, boolean working) {
         this.id = id;
         this.name = name;
         this.department = department;
