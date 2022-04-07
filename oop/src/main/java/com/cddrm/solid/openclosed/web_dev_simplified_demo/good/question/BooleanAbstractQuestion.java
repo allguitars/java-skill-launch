@@ -1,8 +1,8 @@
 package com.cddrm.solid.openclosed.web_dev_simplified_demo.good.question;
 
-public class BooleanQuestion extends Question {
+public class BooleanAbstractQuestion extends AbstractQuestion {
 
-    public BooleanQuestion(String description) {
+    public BooleanAbstractQuestion(String description) {
         super(description);
     }
 

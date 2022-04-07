@@ -1,10 +1,10 @@
 package com.cddrm.solid.openclosed.web_dev_simplified_demo.good;
 
-import com.cddrm.solid.openclosed.web_dev_simplified_demo.good.question.Question;
-import com.cddrm.solid.openclosed.web_dev_simplified_demo.good.question.BooleanQuestion;
-import com.cddrm.solid.openclosed.web_dev_simplified_demo.good.question.MultipleChoiceQuestion;
-import com.cddrm.solid.openclosed.web_dev_simplified_demo.good.question.RangeQuestion;
-import com.cddrm.solid.openclosed.web_dev_simplified_demo.good.question.TextQuestion;
+import com.cddrm.solid.openclosed.web_dev_simplified_demo.good.question.AbstractQuestion;
+import com.cddrm.solid.openclosed.web_dev_simplified_demo.good.question.BooleanAbstractQuestion;
+import com.cddrm.solid.openclosed.web_dev_simplified_demo.good.question.MultipleChoiceAbstractQuestion;
+import com.cddrm.solid.openclosed.web_dev_simplified_demo.good.question.RangeAbstractQuestion;
+import com.cddrm.solid.openclosed.web_dev_simplified_demo.good.question.TextAbstractQuestion;
 
 // https://youtu.be/-ptMtJAdj40 by Web Dev Simplified
 
@@ -20,17 +20,17 @@ public class OpenClosedGoodPracticeDemoApp {
 
     public static void main(String[] args) {
 
-        printQuestionContent(new BooleanQuestion("This video is useful."));
-        printQuestionContent(new MultipleChoiceQuestion("What is your favorite language?", new String[]{"CSS", "HTML", "JS", "Python"}));
-        printQuestionContent(new TextQuestion("Describe your favorite JS feature."));
+        printQuestionContent(new BooleanAbstractQuestion("This video is useful."));
+        printQuestionContent(new MultipleChoiceAbstractQuestion("What is your favorite language?", new String[]{"CSS", "HTML", "JS", "Python"}));
+        printQuestionContent(new TextAbstractQuestion("Describe your favorite JS feature."));
 
         // The new added question type
-        printQuestionContent(new RangeQuestion("What is your speed limit in your city?"));
+        printQuestionContent(new RangeAbstractQuestion("What is your speed limit in your city?"));
     }
 
     // The question printing code block becomes really simple since
     // each type of question automatically knows what to do.
-    private static void printQuestionContent(Question question) {
+    private static void printQuestionContent(AbstractQuestion question) {
         System.out.println(question.getDescription());
         question.printQuestionChoices();
         System.out.println("");

@@ -1,8 +1,8 @@
 package com.cddrm.solid.openclosed.web_dev_simplified_demo.good.question;
 
-public class RangeQuestion extends Question {
+public class RangeAbstractQuestion extends AbstractQuestion {
 
-    public RangeQuestion(String description) {
+    public RangeAbstractQuestion(String description) {
         super(description);
     }
 
