@@ -5,7 +5,7 @@ package com.cddrm.solid.interface_segregation.web_dev_simplified_demo.good.entit
  * inherited from the Entity class.
  * It cannot move or attack, so we do not need to implement other interfaces.
  */
-public class Wall extends Entity {
+public class Wall extends AbstractEntity {
 
     private double health;
 

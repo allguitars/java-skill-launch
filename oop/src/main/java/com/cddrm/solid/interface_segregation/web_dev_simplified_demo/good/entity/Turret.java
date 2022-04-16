@@ -7,7 +7,7 @@ import com.cddrm.solid.interface_segregation.web_dev_simplified_demo.good.behavi
  * It cannot take damage or move, but takeDamage() method is inherited from the abstract class, so
  * we still need to override it inside Turret class.
  */
-public class Turret extends Entity implements Attacker {
+public class Turret extends AbstractEntity implements Attacker {
 
     private double attackDamage;
 
@@ -17,7 +17,7 @@ public class Turret extends Entity implements Attacker {
     }
 
     @Override
-    public void attack(Entity targetEntity) {
+    public void attack(AbstractEntity targetEntity) {
         System.out.println(super.getName() + " attacked " + targetEntity.getName() +
                 " for " + this.attackDamage + " damage");
 

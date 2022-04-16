@@ -1,4 +1,4 @@
-package data_strutures.linked_list.simple_linked_list;
+package datastructures.linkedlist.simplelinkedlist;
 
 public class SimpleLinkedList {
     private class Node {

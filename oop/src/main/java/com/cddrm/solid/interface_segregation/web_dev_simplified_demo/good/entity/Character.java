@@ -11,7 +11,7 @@ import com.cddrm.solid.interface_segregation.web_dev_simplified_demo.good.behavi
  * - Also, we need to implement the takeDamage() method inherited from the Entity class.
  */
 
-public class Character extends Entity implements Mover, Attacker {
+public class Character extends AbstractEntity implements Mover, Attacker {
 
     private double attackDamage;
     private double health;
@@ -23,7 +23,7 @@ public class Character extends Entity implements Mover, Attacker {
     }
 
     @Override
-    public void attack(Entity targetEntity) {
+    public void attack(AbstractEntity targetEntity) {
         System.out.println(super.getName() + " attacked " + targetEntity.getName() +
                 " for " + this.attackDamage + " damage");
 

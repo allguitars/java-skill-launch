@@ -3,11 +3,11 @@ package com.cddrm.solid.interface_segregation.web_dev_simplified_demo.good.entit
 /**
  * Now the Entity class is very small.
  */
-abstract public class Entity {
+abstract public class AbstractEntity {
 
     private String name;
 
-    public Entity(String name) {
+    public AbstractEntity(String name) {
         this.name = name;
     }
 
