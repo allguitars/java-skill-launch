@@ -41,6 +41,10 @@ public class StaticMethodReferenceDemo {
         // the byLength() method
 
         System.out.println(Arrays.toString(names));
+
+        // use another implementation
+        Arrays.sort(names, StringOrder::byLexicography);
+        System.out.println(Arrays.toString(names));
     }
 }
 
