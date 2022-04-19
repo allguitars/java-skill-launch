@@ -1,9 +1,11 @@
 package lambda.anonymous_class_demo;
 
+// GOTOP Book: Java SE14
+
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class ComparatorDemo {
+public class ComparatorWithLambdaDemo {
 
     public static void main(String[] args) {
 
@@ -57,7 +59,10 @@ public class ComparatorDemo {
 
         // Step 4: Final version - combine with the anonymous implementation
 
-        // Now, the statement is short enough so we put it back to Arrays.sort() method.
+        // Now, let's put it back to Arrays.sort() method.
+        // Arrays.sort() knows the second argument should be a Comparator object, and also
+        // the names arrays contains String elements, so we do not need to put
+        // the Comparator<String> anywhere in this statement.
         Arrays.sort(names, (name1, name2) -> name1.length() - name2.length());
 
         System.out.println(Arrays.toString(names));
