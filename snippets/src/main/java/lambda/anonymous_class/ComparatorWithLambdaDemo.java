@@ -1,4 +1,4 @@
-package lambda.anonymous_class_demo;
+package lambda.anonymous_class;
 
 // GOTOP Book: Java SE14
 
