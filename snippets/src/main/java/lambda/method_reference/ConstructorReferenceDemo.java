@@ -38,13 +38,14 @@ public class ConstructorReferenceDemo {
         // we can directly use the constructor for the implementation reference
         List<Person> persons = map(names, Person::new);  // new means the constructor
 
-        // Special Instance reference
+        // ** Special Instance reference
         // For some special instance, we can use its method for implementation reference
         // 'out' is a PrintStream instance provided by Java
+        // This example shows that we can use an existing API as an implementation for the functional interface
         persons.forEach(out::println);
     }
 
-    // Function interface has only one abstract method: R apply(T t)
+    // java.util.function.Function interface has only one abstract method: R apply(T t)
     // Function interface allows you to map a type into another type, and then
     // we can define how to do the mapping by overriding apply() method
     // The second arg to pass in here is a Function object
