@@ -13,7 +13,9 @@ public class SOLIDPrinciplesDemo {
         List<Object> shapes = List.of(circle, square);
 
         int sum = areaCalculator.sum(shapes);
+        String jsonSum = areaCalculator.json(shapes);
 
         System.out.println("sum = " + sum);
+        System.out.println("JSON of sum: " + jsonSum);
     }
 }

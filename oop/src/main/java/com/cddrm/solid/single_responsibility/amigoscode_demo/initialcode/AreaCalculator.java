@@ -17,4 +17,10 @@ public class AreaCalculator {
         }
         return sum;
     }
+
+    // at some point, we want add another method here to return the sum of area with JSON format
+    // This breaks the single responsibility rule
+    public String json(List<Object> shapes) {
+        return String.format("{sum: %s}", sum(shapes));
+    }
 }
