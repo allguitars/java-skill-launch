@@ -20,7 +20,15 @@ public class AreaCalculator {
 
     // at some point, we want add another method here to return the sum of area with JSON format
     // This breaks the single responsibility rule
+    // This method is just for generating the JSON string of the result, and it does not have
+    // anything to do with the area calculation.
+    // This means it does not belong here and should have its own class.
     public String json(List<Object> shapes) {
         return String.format("{sum: %s}", sum(shapes));
+    }
+
+    // break the single responsibility
+    public String csv(List<Object> shapes) {
+        return String.format("sum, %s", sum(shapes));
     }
 }
