@@ -2,7 +2,7 @@ package com.cddrm.solid.single_responsibility.amigoscode_demo.initialcode;
 
 import java.util.List;
 
-public class SOLIDPrinciplesDemo {
+public class SingleResponsibilityInitialDemo {
 
     public static void main(String[] args) {
         AreaCalculator areaCalculator = new AreaCalculator();
