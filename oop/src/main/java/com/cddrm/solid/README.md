@@ -16,3 +16,4 @@ This means that every subclass or derived class should be substitutable for thei
 can’t do. Large interfaces should be divided into small ones.
 
 - **Dependency Inversion**: Components should depend on abstractions, not on concretions.
+ It means we should implement to interface.

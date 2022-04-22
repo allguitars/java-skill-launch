@@ -1,4 +1,4 @@
-package com.cddrm.solid.liskov_substitution.amigoscode_demo.initialcode;
+package com.cddrm.solid.interface_segregation.amigoscode_demo.fix;
 
 public class Circle implements Shape {
     private final int radius;

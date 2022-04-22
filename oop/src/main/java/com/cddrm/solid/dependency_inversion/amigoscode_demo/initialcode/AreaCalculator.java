@@ -1,4 +1,4 @@
-package com.cddrm.solid.liskov_substitution.amigoscode_demo.initialcode;
+package com.cddrm.solid.dependency_inversion.amigoscode_demo.initialcode;
 
 import java.util.List;
 

@@ -10,6 +10,6 @@ public class Cube implements Shape {
 
     @Override
     public double area() {
-        return Math.pow(length, 3);
+        return 100;
     }
 }
