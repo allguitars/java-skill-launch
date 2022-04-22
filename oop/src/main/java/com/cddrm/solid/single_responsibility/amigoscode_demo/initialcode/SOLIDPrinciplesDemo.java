@@ -1,4 +1,4 @@
-package com.cddrm.solid.amigoscode_demo;
+package com.cddrm.solid.single_responsibility.amigoscode_demo.initialcode;
 
 import java.util.List;
 
@@ -14,6 +14,6 @@ public class SOLIDPrinciplesDemo {
 
         int sum = areaCalculator.sum(shapes);
 
-        System.out.println(sum);
+        System.out.println("sum = " + sum);
     }
 }

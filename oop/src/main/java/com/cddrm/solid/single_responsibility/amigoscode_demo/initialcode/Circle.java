@@ -1,4 +1,4 @@
-package com.cddrm.solid.amigoscode_demo;
+package com.cddrm.solid.single_responsibility.amigoscode_demo.initialcode;
 
 public class Circle {
     private final int radius;
