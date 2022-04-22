@@ -2,7 +2,7 @@ package com.cddrm.solid.open_closed.amigoscode_demo.fix;
 
 import java.util.List;
 
-public class OpenClosedInitialDemo {
+public class OpenClosedFixDemo {
 
     public static void main(String[] args) {
         AreaCalculator areaCalculator = new AreaCalculator();
@@ -12,7 +12,7 @@ public class OpenClosedInitialDemo {
         Cube cube = new Cube(10);
 
         List<Shape> shapes = List.of(circle, square, cube);
-        
+
         int sum = areaCalculator.sum(shapes);
         ShapesPrinter printer = new ShapesPrinter();
 
