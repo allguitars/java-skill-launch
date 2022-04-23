@@ -1,4 +1,4 @@
-package com.cddrm.javasnippets.lambda.lambda_and_stream.se14book_demo;
+package com.cddrm.javasnippets.lambda.lambda_and_stream.se14bookdemo;
 
 import java.util.List;
 

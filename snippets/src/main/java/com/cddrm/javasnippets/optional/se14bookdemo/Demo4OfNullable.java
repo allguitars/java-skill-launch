@@ -1,4 +1,4 @@
-package com.cddrm.javasnippets.optional.book_se14;
+package com.cddrm.javasnippets.optional.se14bookdemo;
 
 import java.util.Map;
 import java.util.Optional;
