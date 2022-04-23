@@ -18,7 +18,7 @@ package com.cddrm.solid.open_closed.knowledge_dose_demo.bad;
  *
  * Software module should be open for extensions and closed for modifications.
  * This class is a big violator of the Open-Closed principle because instead of being closed for modification, this class
- * would actually invite and need modification to support other employees working at the hospital.
+ * would actually invite and need modification to support com.cddrm.javasnippets.other employees working at the hospital.
  */
 
 public class HospitalManagement {

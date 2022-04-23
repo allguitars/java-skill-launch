@@ -6,7 +6,7 @@ https://github.com/amigoscode/solid
 be filled with excessive functionality
 
 - **Open Closed**: Classes should be open for extension, closed for modification. 
-In other words, you should not have to rewrite an existing class for implementing new features.
+In com.cddrm.javasnippets.other words, you should not have to rewrite an existing class for implementing new features.
 
 - **Liskov Substitution**: Let Φ(x) be a property provable about objects x of type T. 
 Then Φ(y) should be true for objects y of type S where S is a subtype of T. 

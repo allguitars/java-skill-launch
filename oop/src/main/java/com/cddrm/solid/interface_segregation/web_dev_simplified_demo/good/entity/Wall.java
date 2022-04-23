@@ -3,7 +3,7 @@ package com.cddrm.solid.interface_segregation.web_dev_simplified_demo.good.entit
 /**
  * A Wall can only take damage, so we just need to implement the takeDamage() method that is
  * inherited from the Entity class.
- * It cannot move or attack, so we do not need to implement other interfaces.
+ * It cannot move or attack, so we do not need to implement com.cddrm.javasnippets.other interfaces.
  */
 public class Wall extends AbstractEntity {
 

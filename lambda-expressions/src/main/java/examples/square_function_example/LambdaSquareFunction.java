@@ -5,7 +5,7 @@ public class LambdaSquareFunction {
     public static void main(String[] args) {
 
         // As this interface has ONLY one method to implement, we can use the
-        // lambda expression
+        // com.cddrm.javasnippets.lambda expression
 
         // Step 1:
         // IntegerFunction lambdaSquareFunction = (Integer i) -> i * i;
