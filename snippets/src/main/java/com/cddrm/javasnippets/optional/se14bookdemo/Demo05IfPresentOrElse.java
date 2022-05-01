@@ -3,7 +3,7 @@ package com.cddrm.javasnippets.optional.se14bookdemo;
 import java.util.Map;
 import java.util.Optional;
 
-public class Demo5IfPresentOrElse {
+public class Demo05IfPresentOrElse {
 
     public static void main(String[] args) {
 

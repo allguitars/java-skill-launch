@@ -3,12 +3,11 @@ package com.cddrm.javasnippets.optional.se14bookdemo;
 import java.util.Map;
 import java.util.Optional;
 
-public class Demo3OrElse {
+public class Demo04OfNullable {
 
     public static void main(String[] args) {
         Optional<String> nickOptional = getNickname("Duke");
 
-        // With orElse(), we can specify the alternative value and make the code more clean
         System.out.println(nickOptional.orElse("Openhome Reader"));
     }
 
@@ -20,10 +19,14 @@ public class Demo3OrElse {
                 "Irene", "hamimi"
         );
 
-        String nickname = nicknames.get(name);
+//        String nickname = nicknames.get(name);
+//        return nickname == null ?
+//                Optional.empty() :
+//                Optional.of(nickname);
 
-        return nickname == null ?
-                Optional.empty() :
-                Optional.of(nickname);
+        // Optional.ofNullable() is an alternative way to write above code.
+        // Behind the scenes, it calls empty() if the return value is null,
+        // otherwise it calls of().
+        return Optional.ofNullable(nicknames.get(name));
     }
 }

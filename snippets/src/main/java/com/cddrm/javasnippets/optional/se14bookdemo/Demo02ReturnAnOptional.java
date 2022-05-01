@@ -3,7 +3,7 @@ package com.cddrm.javasnippets.optional.se14bookdemo;
 import java.util.Map;
 import java.util.Optional;
 
-public class Demo2ReturnAnOptional {
+public class Demo02ReturnAnOptional {
 
     public static void main(String[] args) {
         Optional<String> nickOptional = getNickname("Duke");

@@ -3,7 +3,7 @@ package com.cddrm.javasnippets.optional.se14bookdemo;
 import java.util.Map;
 import java.util.Optional;
 
-public class Demo6OrMethod {
+public class Demo06OrMethod {
 
     public static void main(String[] args) {
 

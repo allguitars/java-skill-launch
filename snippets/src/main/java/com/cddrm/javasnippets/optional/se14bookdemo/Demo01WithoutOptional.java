@@ -11,7 +11,7 @@ import java.util.Map;
 // out the nickname. This might cause a lot of trouble.
 
 // We can use Optional to force the user to check the nullity if the returned value
-public class Demo1WithoutOptional {
+public class Demo01WithoutOptional {
 
     public static void main(String[] args) {
         String nickname = getNickname("Duke");
