@@ -3,18 +3,19 @@ package com.cddrm.javasnippets.collection_and_map.collection.deques;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+/**
+ * Java has built-in Stack class, see:
+ * https://docs.oracle.com/javase/7/docs/api/java/util/Stack.html
+ *
+ * However, a more complete and consistent set of LIFO stack operations
+ * is provided by the `Deque` interface and its implementations,
+ * which should be used in preference to this class.
+ */
+
 public class StackDemo {
-    private Deque elems = new ArrayDeque(); // ArrayDeque implements Deque interface
-    private int capacity;
 
-    // constructor
-    public StackDemo(int capacity) {
-        this.capacity = capacity;
-    }
-
-    // main
     public static void main(String[] args) {
-        StackDemo stack = new StackDemo(3);
+        MyStack stack = new MyStack(3);
         stack.push("Dave");
         stack.push("Stanley");
         stack.push("John");
@@ -23,6 +24,15 @@ public class StackDemo {
         System.out.println(stack.pop());  // Stanley
         System.out.println(stack.pop());  // Dave
         System.out.println(stack.peek()); // null
+    }
+}
+
+class MyStack {
+    private Deque elems = new ArrayDeque(); // ArrayDeque implements Deque interface
+    private int capacity;
+
+    public MyStack(int capacity) {
+        this.capacity = capacity;
     }
 
     public boolean push(Object elem) {
