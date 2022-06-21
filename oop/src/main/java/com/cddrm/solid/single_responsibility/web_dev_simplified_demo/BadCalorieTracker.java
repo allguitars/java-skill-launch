@@ -2,7 +2,7 @@ package com.cddrm.solid.single_responsibility.web_dev_simplified_demo;
 
 /**
  * The idea of the Single Responsibility principle is that all of your classes, modules,
- * functions, anything inside your code that can be put into a single part. For example,
+ * functions, anything inside your code that can be put into a single part, for example,
  * this CalorieTracker class should have one single responsibility.
  * That means it should have Only One Reason to Change. (be modified)
  * Our CalorieTracker has two reasons to change:

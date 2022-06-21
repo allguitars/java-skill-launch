@@ -139,19 +139,19 @@ Main program
 public class DemoApp {
 
     public static void main(String[] args) {
-
-        FlyingBird duck = new Duck();
-        SwimmingBird penguin = new Penguin();
-
-        makeFlyingBirdFly(duck);               // I can fly
-        makeSwimmingBirdSwim(penguin);         // I can swim
-
-        // Try the parent classes. The results will be the same.
+        
         FlyingBird flyingBird = new FlyingBird();
         SwimmingBird swimmingBird = new SwimmingBird();
 
         makeFlyingBirdFly(flyingBird);         // I can fly
         makeSwimmingBirdSwim(swimmingBird);    // I can swim
+
+        // Try the subclasses. The results will be the same.
+        FlyingBird duck = new Duck();
+        SwimmingBird penguin = new Penguin();
+
+        makeFlyingBirdFly(duck);               // I can fly
+        makeSwimmingBirdSwim(penguin);         // I can swim
     }
 
     private static void makeFlyingBirdFly(FlyingBird flyingBird) {

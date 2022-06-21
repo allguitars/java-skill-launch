@@ -1,8 +1,8 @@
 package com.cddrm.solid.open_closed.web_dev_simplified_demo.good.question;
 
-public class MultipleChoiceAbstractQuestion extends AbstractQuestion {
+public class MultipleChoiceQuestion extends AbstractQuestion {
 
-    public MultipleChoiceAbstractQuestion(String description, String[] options) {
+    public MultipleChoiceQuestion(String description, String[] options) {
         super(description, options);
     }
 
